@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -10,19 +6,20 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  globant,
+  coderhouse,
+  angular,
+  sass,
+  nuevaAdelina1,
+  nuevaAdelina2,
+  webDevelopment,
+  agustinaPasqualis,
+  sofiaGonzalez,
+  hernanCase,
+  carlosMedina,
+  julioSalinas,
+  lorenaSina,
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +40,15 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: webDevelopment,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Developer",
+    icon: reactjs,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Javascript Tutor",
+    icon: javascript,
   },
 ];
 
@@ -85,86 +78,52 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Sass",
+    icon: sass,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front End Developer",
+    company_name: "Globant",
+    icon: globant,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "December 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing user interfaces using Reactjs, Redux, Jest, and collaborating with the UX team to ensure adherence to Figma designs.",
+      "Participating in daily meetings with the team to ensure project progress and efficient communication.",
+      "Planning and executing project development using Jira, Azure DevOps.",
+      "Utilizing Git and Github for version control and collaboration with other developers on the team.",
+      "Participating in code reviews and retrospectives to improve project efficiency and code quality.",
+      "Presenting code progress and product demos to clients, incorporating their feedback to improve product functionality.",
+      "Migrating VBA code to a web panel within Excel using Angular and Typescript, and implementing Excel web and API for Office add-ins.",
+      "Implementing Adobe Analytics tags for event tracking using Angular, Typescript, Rxjs and related technologies.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Javascript Tutor",
+    company_name: "Coderhouse",
+    icon: coderhouse,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2022 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Providing support to both the teacher and the students during the classes.",
+      "Monitoring of the student's development throughout the entire course.",
+      "Correcting deliverable challenges and final project pre-deliveries.",
+      'Presentating "After Class" where a review of fundamental topics of the course is carried out.',
     ],
   },
 ];
@@ -172,93 +131,97 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Nicolas is a collaborative, inclusive, and flexible team player who is always looking to integrate everyone and make activities more enjoyable. He is a fast learner and adapts well to challenges, with an open and sociable attitude towards others. To improve, he could benefit from having more confidence in his ideas and problem-solving abilities. Overall, Nicolas is an attentive professional and valuable team member who will undoubtedly be an asset to any future team he joins.",
+    name: "Agustina Pasqualis",
+    designation: "Ssr. Front End Developer",
+    company: "Globant",
+    image: agustinaPasqualis,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
+      "Nicolás is an exceptional team member who consistently supports his colleagues, shares new ideas and perspectives, collaborates effectively, and accepts new challenges with a positive attitude. He is an essential asset to any project, demonstrating a strong commitment to personal and team growth, and setting himself apart as a standout professional.",
+    name: "Sofia Gonzalez",
+    designation: "Ssr. Front End Developer",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: sofiaGonzalez,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Nicolas is a skilled developer with strong problem-solving abilities, excellent research skills, and a fast learning capacity. He is dedicated to finding workarounds and initiatives, and his ability to quickly grasp new concepts and technologies makes him a valuable asset to any development team. Nicolas consistently delivers high-quality work, contributes positively to team dynamics, and is an essential member of any development project.",
+    name: "Julio Rozo",
+    designation: "Sr. Software Engineer",
+    company: "Globant",
+    image: julioSalinas,
+  },
+  {
+    testimonial:
+      "Nicolas added value to the project from the very beginning, helping with the initial configuration and guiding the team to have meetings that allow us to achieve objectives quickly. He communicates easily with his colleagues and external parties, and he is always willing to ask for help to avoid being stuck. He takes the initiative to develop without wasting time and is flexible enough to adapt to unforeseen changes. In these unprecedented times, he has kept himself informed about the team's progress, which demonstrates his commitment to his career. There is no doubt that he would add value to any project he joins.",
+    name: "Hernan Case",
+    designation: "Sr. Software Engineer",
+    company: "DEPT",
+    image: hernanCase,
+  },
+  {
+    testimonial:
+      "Nicolas has shown excellent performance in every assigned task, including proactively seeking additional information to learn about the tech stack and leading trainings for new team members. He has outstanding commitment and compliance within the team, and his strong soft skills, including problem-solving, communication, and teamwork, have been essential to his success.",
+    name: "Lorena Gonzalez",
+    designation: "Sr. Project Manager",
+    company: "Globant",
+    image: lorenaSina,
+  },
+  {
+    testimonial:
+      "Nicolas has been a valuable member of the team, consistently focused on collaboration and delivering high-quality work that meets customer expectations. He is always eager to propose new ideas and ways of working, and actively researches new processes and technologies to help solve customer needs and meet project requirements. He is always striving to learn and grow in his career, while also being willing to share his knowledge with the team. His excellent performance throughout the project has been greatly appreciated and has helped to successfully achieve all project goals and meet customer needs.",
+    name: "Carlos Medina Garcia",
+    designation: "Ssr. Project Manager",
+    company: "Globant",
+    image: carlosMedina,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Parrilla Nueva Adelina",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This was my first project as a developer. A simple and full responsive website. It has a contact form, an image gallery carousel, a menu, and some sections.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "HTML",
+        color: "orange-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nuevaAdelina1,
+    source_code_link:
+      "https://github.com/NicooWolf/NicooWolf-Parrilla-Nueva-Adelina",
   },
   {
-    name: "Job IT",
+    name: "Parrilla Nueva Adelina 2.0",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Previous project remastered, adding user interactivity and functionality to the site. I made a menu with meals, prices and a shopping cart.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Javascript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nuevaAdelina2,
+    source_code_link: "https://github.com/NicooWolf/proyecto-final-js-wolf",
   },
 ];
 
