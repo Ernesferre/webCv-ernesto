@@ -10,6 +10,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <Analytics />
     </BrowserRouter>
   );
 };

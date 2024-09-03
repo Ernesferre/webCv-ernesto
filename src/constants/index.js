@@ -47,8 +47,8 @@ const services = [
     icon: reactjs,
   },
   {
-    title: "Javascript Tutor",
-    icon: javascript,
+    title: "React Tutor",
+    icon: reactjs,
   },
 ];
 
@@ -95,6 +95,7 @@ const experiences = [
   {
     title: "Front End Developer",
     company_name: "British Airways",
+    industry: "Aviation",
     icon: globant,
     iconBg: "#E6DEDD",
     date: "January 2024 - Current",
@@ -123,11 +124,11 @@ const experiences = [
     ],
   },
   {
-    title: "Javascript Tutor",
+    title: "React Tutor",
     company_name: "Coderhouse",
     icon: coderhouse,
     iconBg: "#E6DEDD",
-    date: "May 2022 - Current",
+    date: "February 2021 - May 2024",
     points: [
       "Providing support to both the teacher and the students during the classes.",
       "Monitoring of the student's development throughout the entire course.",
