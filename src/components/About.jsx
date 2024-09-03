@@ -38,14 +38,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skilled developer with almost two years of experience, who lives
-        in Buenos Aires, Argentina. I have contributed to the development of
-        several web applications across different projects, where I have been
-        fortunate enough to achieve good results. I am constantly developing my
-        abilities and staying up to date with the latest updates in the
-        technologies I use, while also continuing to learn and grow every day. I
-        consider myself a fast learner when it comes to new tools and
-        technologies.
+        I’m a Frontend Developer with almost 4 years of experience specializing in building responsive and high-performance web applications using React.js and Next.js. Throughout my career, I've successfully delivered projects across various industries, consistently applying best practices in modern web development, including component-based architectures, state management, and performance optimization.
+
+        I am proficient in agile methodologies such as Scrum, ensuring smooth collaboration and iterative delivery of projects. My main focus is to contribute to impactful projects where I can not only apply my technical skills but also continuously learn and integrate new tools and practices.
+
+      Key Strengths:
+
+      - Expertise in React.js, Next.js, JavaScript (ES6+), GraphQL, and CSS frameworks (Tailwind CSS, SASS).
+      - Strong understanding of modern frontend technologies and tools, such as Apollo Client, Firebase, and Git.
+      - Passionate about creating intuitive user interfaces and seamless user experiences.
+      - Collaborative team player who values clear communication and respectful work environments, always striving to enhance productivity and team morale.
+
+      I'm excited to be part of teams that value innovation and technical excellence, where I can contribute effectively and continue to grow as a developer.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-20">
