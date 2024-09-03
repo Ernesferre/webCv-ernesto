@@ -98,19 +98,32 @@ const technologies = [
 const experiences = [
   {
     title: "Front End Developer",
-    company_name: "Globant",
+    company_name: "British Airways",
     icon: globant,
     iconBg: "#E6DEDD",
-    date: "December 2021 - Present",
+    date: "January 2024 - Current",
     points: [
-      "Developing user interfaces using Reactjs, Redux, Jest, and collaborating with the UX team to ensure adherence to Figma designs.",
+      "Developing user interfaces using Reactjs, Redux, GraphQL, Jest, and collaborating with the UX team to ensure adherence to Figma designs.",
       "Participating in daily meetings with the team to ensure project progress and efficient communication.",
       "Planning and executing project development using Jira, Azure DevOps.",
       "Utilizing Git and Github for version control and collaboration with other developers on the team.",
       "Participating in code reviews and retrospectives to improve project efficiency and code quality.",
       "Presenting code progress and product demos to clients, incorporating their feedback to improve product functionality.",
-      "Migrating VBA code to a web panel within Excel using Angular and Typescript, and implementing Excel web and API for Office add-ins.",
-      "Implementing Adobe Analytics tags for event tracking using Angular, Typescript, Rxjs and related technologies.",
+    ],
+  },
+  {
+    title: "Front End Developer",
+    company_name: "Disney",
+    icon: globant,
+    iconBg: "#E6DEDD",
+    date: "December 2021 - January 2024",
+    points: [
+      "Developing user interfaces using Reactjs, Redux, GraphQL, Jest, and collaborating with the UX team to ensure adherence to Figma designs.",
+      "Participating in daily meetings with the team to ensure project progress and efficient communication.",
+      "Planning and executing project development using Jira, Azure DevOps.",
+      "Utilizing Git and Github for version control and collaboration with other developers on the team.",
+      "Participating in code reviews and retrospectives to improve project efficiency and code quality.",
+      "Presenting code progress and product demos to clients, incorporating their feedback to improve product functionality.",
     ],
   },
   {
