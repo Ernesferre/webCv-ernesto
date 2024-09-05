@@ -12,13 +12,14 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  web_page,
   source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -40,7 +41,7 @@ const ProjectCard = ({
           </div>
           <div className="absolute inset-0 top-12 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(web_page, "_blank")}
               className="grey-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img src={eye} alt="eye" className="w-1/2 h-1/2 object-contain" />

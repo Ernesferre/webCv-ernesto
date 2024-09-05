@@ -16,14 +16,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import sass from "./tech/sass.png";
 import angular from "./tech/angular.png";
+import next from "./tech/next.png"
 
 //Companies
 import globant from "./companies/globant.png";
 import coderhouse from "./companies/coderhouse.png";
 
 //Jobs
-import nuevaAdelina1 from "../assets/jobs/nuevaAdelina1.png";
-import nuevaAdelina2 from "../assets/jobs/nuevaAdelina2.png";
+// import nuevaAdelina1 from "../assets/jobs/nuevaAdelina1.png";
+// import nuevaAdelina2 from "../assets/jobs/nuevaAdelina2.png";
+import tiendaMusikal from "../assets/jobs/tiendaMusikal.png";
+import laComanda from "../assets/jobs/laComanda.png";
+import gestionProyecto from "../assets/jobs/gestionProyecto.png";
+import laCafeteria from "../assets/jobs/laCafeteria.png";
+import aenimaViajes from "../assets/jobs/aenimaViajes.png";
 
 //Colleagues
 import agustinaPasqualis from "../assets/colleagues/AgustinaPasqualis.png";
@@ -44,6 +50,7 @@ export {
   html,
   javascript,
   reactjs,
+  next,
   angular,
   sass,
   redux,
@@ -51,8 +58,11 @@ export {
   typescript,
   globant,
   coderhouse,
-  nuevaAdelina1,
-  nuevaAdelina2,
+  tiendaMusikal,
+  laComanda,
+  gestionProyecto,
+  laCafeteria,
+  aenimaViajes,
   webDevelopment,
   agustinaPasqualis,
   sofiaGonzalez,
