@@ -46,6 +46,15 @@ const ExperienceCard = ({ experience }) => (
         </li>
       ))}
     </ul>
+    <div className="mt-8">
+    {experience.techUsed && (
+      <p className="text-secondary">
+        <strong >Technologies Used:</strong>
+        <hr className="mb-2 mt-2"/>
+        {experience.techUsed.join(", ")}
+      </p>
+    )}
+    </div>
   </VerticalTimelineElement>
 );
 

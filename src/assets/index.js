@@ -30,6 +30,7 @@ import laComanda from "../assets/jobs/laComanda.png";
 import gestionProyecto from "../assets/jobs/gestionProyecto.png";
 import laCafeteria from "../assets/jobs/laCafeteria.png";
 import aenimaViajes from "../assets/jobs/aenimaViajes.png";
+import countryMap from "../assets/jobs/countryMap.png";
 
 //Colleagues
 import agustinaPasqualis from "../assets/colleagues/AgustinaPasqualis.png";
@@ -63,6 +64,7 @@ export {
   gestionProyecto,
   laCafeteria,
   aenimaViajes,
+  countryMap,
   webDevelopment,
   agustinaPasqualis,
   sofiaGonzalez,

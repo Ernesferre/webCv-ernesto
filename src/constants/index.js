@@ -17,6 +17,7 @@ import {
   laCafeteria,
   // nuevaAdelina2,
   aenimaViajes,
+  countryMap,
   webDevelopment,
   agustinaPasqualis,
   sofiaGonzalez,
@@ -115,6 +116,8 @@ const experiences = [
       "Participating in code reviews and retrospectives to improve project efficiency and code quality.",
       "Presenting code progress and product demos to clients, incorporating their feedback to improve product functionality.",
     ],
+    techUsed: ["Next Js", "TypeScript", "Api rest", "Context", "Jest", "React-Testing-Library"]
+
   },
   {
     title: "Front End Developer",
@@ -123,13 +126,21 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "December 2021 - January 2024",
     points: [
-      "Developing user interfaces using Reactjs, Redux, GraphQL, Jest, and collaborating with the UX team to ensure adherence to Figma designs.",
-      "Participating in daily meetings with the team to ensure project progress and efficient communication.",
-      "Planning and executing project development using Jira, Azure DevOps.",
-      "Utilizing Git and Github for version control and collaboration with other developers on the team.",
-      "Participating in code reviews and retrospectives to improve project efficiency and code quality.",
-      "Presenting code progress and product demos to clients, incorporating their feedback to improve product functionality.",
+      "Building the UI of Content Platform Planning Tool for Disney Entertainment",
+      "Developing our own customized component library in order not to rely on any external libraries that could impact the original design",
     ],
+    techUsed: ["React Js", "TypeScript", "React Router", "Redux", "Axios", "AG-grid", "Jest", "React-Testing-Library"]
+  },
+  {
+    title: "Web Developer",
+    company_name: "Coderhouse",
+    icon: coderhouse,
+    iconBg: "#E6DEDD",
+    date: "February 2021 - Dec 2021",
+    points: [
+    "Contributing to the company Coderhouse's in creating and maintaining new applications for local businesses"
+    ],
+    techUsed: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "React Tutor",
@@ -308,6 +319,30 @@ const projects = [
     web_page: "https://aenima-viajes.netlify.app/",
     source_code_link: "https://github.com/Ernesferre/Aenima-Viajes",
   },
+  {
+    name: "Buscador de Paises",
+    description:
+      "Buscador de paises",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: countryMap,
+    web_page: "https://country-map-seven.vercel.app/",
+    source_code_link: "https://github.com/Ernesferre/Country-Map",
+  },
+  
+  
 
 ];
 
