@@ -50,11 +50,9 @@ const About = () => {
         main focus is to contribute to impactful projects where I can not only
         apply my technical skills but also continuously learn and integrate new
         tools and practices.<br />{"\n"}
-        <strong>Key Strengths: </strong> <br />
+        <strong>Key Strengths: </strong> <br />{"\n"}
         - Expertise in React.js, Next.js, JavaScript (ES6+),
         GraphQL, and CSS frameworks (Tailwind CSS, SASS). <br />
-        - Strong understanding of modern frontend technologies and tools, such as Apollo Client,
-        Firebase, and Git. <br />
         - Passionate about creating intuitive user interfaces
         and seamless user experiences. <br />
         - Collaborative team player who values

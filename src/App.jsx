@@ -11,6 +11,7 @@ import {
   StarsCanvas,
 } from "./components";
 import { Analytics } from "@vercel/analytics/react"
+import WhatsappButton from "./components/WhatsApp";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         </div>
       </div>
       <Analytics />
+      <WhatsappButton />
     </BrowserRouter>
   );
 };
