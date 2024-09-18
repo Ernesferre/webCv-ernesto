@@ -15,7 +15,6 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import sass from "./tech/sass.png";
-import angular from "./tech/angular.png";
 import next from "./tech/next.png"
 
 //Companies
@@ -23,8 +22,6 @@ import globant from "./companies/globant.png";
 import coderhouse from "./companies/coderhouse.png";
 
 //Jobs
-// import nuevaAdelina1 from "../assets/jobs/nuevaAdelina1.png";
-// import nuevaAdelina2 from "../assets/jobs/nuevaAdelina2.png";
 import tiendaMusikal from "../assets/jobs/tiendaMusikal.png";
 import laComanda from "../assets/jobs/laComanda.png";
 import gestionProyecto from "../assets/jobs/gestionProyecto.png";
@@ -33,12 +30,14 @@ import aenimaViajes from "../assets/jobs/aenimaViajes.png";
 import countryMap from "../assets/jobs/countryMap.png";
 
 //Colleagues
-import agustinaPasqualis from "../assets/colleagues/AgustinaPasqualis.png";
-import sofiaGonzalez from "../assets/colleagues/SofiaGonzalez.png";
-import hernanCase from "../assets/colleagues/hernanCase.png";
-import lorenaSina from "../assets/colleagues/lorenaSina.png";
-import julioSalinas from "../assets/colleagues/julioSalinas.png";
-import carlosMedina from "../assets/colleagues/carlosMedina.png";
+import nicolasPasserino from "../assets/colleagues/nicolasPasserino.png"
+import melinaGarciaCebenko from "../assets/colleagues/melinaGarciaCebenko.png"
+import FranciscoImanolSuarez from "../assets/colleagues/FranciscoImanolSuarez.png"
+import nicolasSiandro from "../assets/colleagues/nicolasSiandro.png"
+import jaimeCruz from "../assets/colleagues/jaimeCruz.png"
+import nicolasKaen from "../assets/colleagues/nicolasKaen.png"
+
+
 
 export {
   logo,
@@ -52,7 +51,6 @@ export {
   javascript,
   reactjs,
   next,
-  angular,
   sass,
   redux,
   tailwind,
@@ -66,10 +64,10 @@ export {
   aenimaViajes,
   countryMap,
   webDevelopment,
-  agustinaPasqualis,
-  sofiaGonzalez,
-  hernanCase,
-  carlosMedina,
-  julioSalinas,
-  lorenaSina,
+  FranciscoImanolSuarez,
+  nicolasPasserino,
+  nicolasSiandro,
+  melinaGarciaCebenko,
+  jaimeCruz,
+  nicolasKaen
 };

@@ -36,33 +36,33 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] whitespace-pre-line"
+        className="mt-4 text-secondary text-[17px] max-w-6xl leading-[30px] whitespace-pre-line"
       >
         Hi there 👋 <br />{"\n"}
         My name is Ernest. I’m a Frontend Developer with nearly 4 years of experience
         specializing in building responsive and high-performance web
-        applications using React.js and Next.js. <br />Throughout my career, I have
+        applications using React.js and Next.js. <br />{"\n"}Throughout my career, I have
         successfully delivered projects across various industries, consistently
         applying best practices in modern web development, including
         component-based architectures, state management, and performance
         optimization. I am proficient in agile methodologies such as Scrum,
-        ensuring smooth collaboration and iterative delivery of projects. <br /> My
+        ensuring smooth collaboration and iterative delivery of projects. <br />{"\n"} My
         main focus is to contribute to impactful projects where I can not only
         apply my technical skills but also continuously learn and integrate new
         tools and practices.<br />{"\n"}
         <strong>Key Strengths: </strong> <br />{"\n"}
-        - Expertise in React.js, Next.js, JavaScript (ES6+),
+        - Expertise in React.js, Next.js, JavaScript (ES6+), TypeScript, 
         GraphQL, and CSS frameworks (Tailwind CSS, SASS). <br />
         - Passionate about creating intuitive user interfaces
         and seamless user experiences. <br />
         - Collaborative team player who values
         clear communication and respectful work environments, always striving to
-        enhance productivity and team morale. I'm excited to be part of teams
+        enhance productivity and team morale.<br />{"\n"} I'm excited to be part of teams
         that value innovation and technical excellence, where I can contribute
         effectively and continue to grow as a developer.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-20">
+      <div className="mt-20 flex justify-evenly flex-wrap gap-20">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
